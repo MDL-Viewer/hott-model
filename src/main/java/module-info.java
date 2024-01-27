@@ -6,5 +6,7 @@ module de.treichels.hott.model {
     requires java.logging;
     requires jakarta.xml.bind;
     exports de.treichels.hott.model;
+    exports de.treichels.hott.model.enums;
+    exports de.treichels.hott.model.firmware;
     exports de.treichels.hott.messages;
 }
