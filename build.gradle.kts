@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-
 plugins {
     kotlin("jvm")
     id("java-library")
@@ -22,7 +20,7 @@ repositories {
 dependencies {
     implementation("jakarta.xml.bind:jakarta.xml.bind-api:_")
     implementation("org.apache.httpcomponents:fluent-hc:_")
-    api("de.treichels.hott:hott-util:_")
+    implementation("de.treichels.hott:hott-util:_")
     testImplementation("junit:junit:_")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:_")
 }
