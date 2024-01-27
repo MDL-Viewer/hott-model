@@ -1,14 +1,10 @@
 package de.treichels.hott.messages;
 
-import org.jetbrains.annotations.NonNls;
-
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
 public class Messages {
-    @NonNls
     private static final String BUNDLE_NAME = "de.treichels.hott.messages.messages";
-    @NonNls
     private static final String[] PACKAGE_NAMES = { "", "de.treichels.hott.model.", "de.treichels.hott.model.enums." };
     private static final ResourceBundle RESOURCE_BUNDLE = ResourceBundle.getBundle(BUNDLE_NAME);
 
