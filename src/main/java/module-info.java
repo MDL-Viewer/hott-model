@@ -1,6 +1,5 @@
 module de.treichels.hott.model {
-    requires kotlin.stdlib;
-    requires de.treichels.hott.util;
+    requires transitive de.treichels.hott.util;
     requires java.desktop;
     requires java.xml;
     requires java.logging;
